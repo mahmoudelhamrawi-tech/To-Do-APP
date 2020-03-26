@@ -1,0 +1,19 @@
+body{
+ background-color: #2d3047;
+
+}
+.wh{
+    color: white;
+}
+.rd{
+    color:#ee6325 ;
+}
+.gr{
+    color: #00CEAA; 
+}
+.hid{
+    display: none;
+}
+.see{
+    display: block !important;
+}

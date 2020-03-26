@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>TO DO APP</title>
+     <meta name="author" content="elhamreawi">
+     <meta charset="utf-8">
+     <meta name="description" content="to do app">
+     <meta name="keywords" content="app">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/mystyle.css">
+ </head>
+ <body>
+    <div class="container">
+      <h1 class="text-center text-white py-3 display-3">TO DO APP</h1>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                    <form id="data-form">
+                        <div class="row">
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label for="fname" class="text-white">Frist Name</label>
+                                <input type="text" class="form-control" id="fname">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                <label for="lname"class="text-white">Last Name</label>
+                                <input type="text" class="form-control" id="lname">
+                               </div>
+                            </div>
+
+
+                            
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                <label for="age" class="text-white">Age</label>
+                                <input type="number" class="form-control" id="age">
+                               </div>
+                            </div>
+                            
+                            <div class="col-md-12">
+                               <div  class="art">
+              
+                               </div>
+                              
+                           </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                <input type="button" class="btn btn-success btn-block" id="mybtn" value="Add New">
+                               </div>
+                            </div>
+
+                            <div class="col-md-12">
+                              <div  class="arts">
+             
+                              </div>
+                             
+                          </div>
+
+
+                         </div>
+                        </form>
+            </div>
+        
+
+
+
+
+
+        </div>
+
+        <div class="row py-3">
+            <h1 class="rd display-4 text-center col my-3">All Students</h1>
+            <div class="col-md-10 offset-md-1">
+                <table class="table table-bordered  text-center" id="data-table">
+                  <thead>
+                      <tr class="gr">
+                          <td>Frist Name</td>
+                          <td>Last Name</td>
+                          <td>Age</td>
+                          <td>Delete</td>
+                          <td>UpDAte</td>
+                      </tr>
+                  </thead>
+                  <tbody id="show" class="wh">
+                  </tbody>
+                  <tfoot id="foot">
+                    <tr>
+                      <td colspan="5">  <button class="btn btn-danger btn-block" onclick="sss()">Clear ALL Items</button>
+                      </td>
+                    </tr>
+                      
+                  </tfoot>
+                  <div class="remove"></div>
+    
+                </table>
+            </div>
+          </div>
+
+       <h4 class="text-white">powered by: Mahmoud Elhamrawi &trade;</h4>
+       <!-- <h4 class="text-white">Mob: 01278385814 <i class="fa fa-whatsapp"></i></h4> -->
+    
+
+    </div>
+
+
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     <script src="js/jquery-3.4.1.min.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/bootstrap.js"></script>
+     <script src="js/myjs.js"></script>
+ </body>
+</html>
